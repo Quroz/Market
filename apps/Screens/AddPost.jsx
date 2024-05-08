@@ -92,9 +92,14 @@ const AddPost = () => {
                         <RNPickerSelect
                             onValueChange={(text) => setInput({ ...input, category: text })}
                             items={[
-                                { label: 'Football', value: 'football' },
-                                { label: 'Baseball', value: 'baseball' },
-                                { label: 'Hockey', value: 'hockey' },
+                                { label: 'Furniture', value: 'furniture' },
+                                { label: 'Jobs', value: 'jobs' },
+                                { label: 'Hobby', value: 'hobby' },
+                                { label: 'Electronics', value: 'electronics' },
+                                { label: 'Car', value: 'car' },
+                                { label: 'Clothing', value: 'clothing' },
+                                { label: 'Properties', value: 'properties' },
+                                { label: 'Educational', value: 'educational' },
                             ]}
                         />
                     </View>

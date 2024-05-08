@@ -3,6 +3,9 @@ import React, { useEffect } from 'react'
 import Services from '../../utils/Services'
 import { useNavigation } from "@react-navigation/native"
 import { client } from "../../utils/KindeConfig"
+import Heading from '../Components/Heading'
+import Slider from '../Components/Slider'
+import Categories from '../Components/Categories'
 
 
 const Home = () => {
@@ -35,10 +38,10 @@ const Home = () => {
     }
 
     return (
-        <View style={{ padding: 80 }}>
-            <TouchableOpacity onPress={handleLogout}>
-                <Text>Home</Text>
-            </TouchableOpacity>
+        <View style={{ paddingHorizontal: 20, paddingVertical: 40, flex: 1, backgroundColor: "white" }}>
+            <Heading />
+            <Slider />
+            <Categories />
         </View>
     )
 }
