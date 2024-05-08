@@ -9,6 +9,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@firebase/storage": "^0.12.4",
+    "@kinde-oss/kinde-auth-react": "^3.0.28",
     "@kinde-oss/react-native-sdk-0-7x": "^1.3.0",
     "@react-native-async-storage/async-storage": "^1.23.1",
     "@react-native-masked-view/masked-view": "0.3.1",
@@ -16,10 +18,13 @@
     "@react-navigation/native": "^6.1.17",
     "@react-navigation/stack": "^6.3.29",
     "expo": "~51.0.0",
+    "expo-image-picker": "~15.0.4",
     "expo-status-bar": "~1.12.1",
+    "firebase": "^10.11.1",
     "react": "18.2.0",
     "react-native": "0.74.1",
-    "react-native-gesture-handler": "~2.16.1"
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-picker-select": "^9.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
